@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(336, 100%, 49%);
+
+}
+
+#heading {
+    text-align: center;
+    margin: 10px;
+    font-size: 2rem;
+    font-style: bold;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 93%);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.imagecontainer {
+    text-align: center;
+}
+
+.image button {
+    transform: translateY(-20px);
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    background-color: hsl(118, 100%, 33%);
+    color: white;
+    font-size: 1.2emm;
+}
+
+.image {
+    margin: 10px;
+}
+
+.image img {
+    border-radius: 10px;
+
+}
+
+#cart {
+    min-height: 200px;
+    min-width: 200px;
+    width: auto;
+    border: 2px solid hsl(0, 0%, 73%);
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 15px;
+    height: auto;
+    text-align: center;
+    background-color: hsl(0, 0%, 90%);
+}
+
+
+.text,
+.cash {
+    font-size: 1.3em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#cart #mainh1 {
+    color: hsl(217, 100%, 50%);
+}
+
+.item {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap:10px;
+    justify-content: center;
+    align-items:center;
+    height: fit-content;
+    margin: 10px;
+    padding: 5px;
+}
+
+.item div {
+    height: fit-content;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid rgb(173, 172, 170);
+    background-color: white;
+    border-radius: 20px;
+}
+
+.item div span {
+    margin-left: 5%;
+}
+
+.item div h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.item div button {
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    margin: 15px;
+    width: fit-content;
+    background-color: red;
+    font-size: 1em;
+    color: white;
+    cursor: pointer;
+}
+
+.checkout button {
+    border-radius: 30px;
+    border: none;
+    padding: 8px;
+    margin: 15px;
+    width: 50%;
+    background-color: hsl(120, 92%, 56%);
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+}
+
+#orderForm {
+    text-align: center;
+}
+#orderForm h1 {
+    color:rgb(229, 0, 241);
+}
+table  {
+    text-align: center;
+    margin:auto;
+    border-collapse:separate;
+    font-size: 1.2em;
+    padding:10px;
+}
+table input,textarea {
+    text-align: center;
+    padding: 5px;
+    margin:5px;
+    border-radius: 5px;
+    border:none;
+    font-size: 1em;
+
+}
+select {
+    padding: 5px;
+    margin:5px;
+    border-radius: 5px;
+    border:none;
+    font-size: .9em;
+}
+label {
+    font-weight: bold;
+    font-style: italic;
+    font-size : 1.2em;
+}

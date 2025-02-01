@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Desserts</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./assets/images/icon-add-to-cart.svg">
+
+</head>
+
+<body>
+  <h1 id="heading">Desserts</h1>
+  <hr>
+  <div id="container">
+    <div class="imageContainer">
+      <div class="image">
+        <img src="./assets/images/image1.jpg" width="200px"><br>
+        <div><button>🛒Add to Cart</button></div>
+      </div>
+      <div class="text">Chocolate Cake</div>
+      <div class="cash">$7</div>
+    </div>
+    <div class="imageContainer">
+      <div class="image">
+        <img src="./assets/images/image2.jpg" width="200px"><br>
+        <div><button>🛒Add to Cart</button></div>
+      </div>
+      <div class="text">3 Sweet Samosa</div>
+      <div class="cash">$6.5</div>
+    </div>
+
+    <div class="imageContainer">
+      <div class="image">
+        <img src="./assets/images/image4.jpg" width="200px"><br>
+        <div><button>🛒Add to Cart</button></div>
+      </div>
+      <div class="text">4 Strawberry biscuit</div>
+      <div class="cash">$6.5</div>
+    </div>
+
+    <div class="imageContainer">
+      <div class="image">
+        <img src="./assets/images/image11.jpg" width="200px"><br>
+        <div><button>🛒Add to Cart</button></div>
+      </div>
+      <div class="text">Strawberry cake</div>
+      <div class="cash">$8</div>
+    </div>
+
+    <div class="imageContainer">
+      <div class="image">
+        <img src="./assets/images/image8.jpg" width="200px"><br>
+        <div><button>🛒Add to Cart</button></div>
+      </div>
+      <div class="text">Small Strawberry cake </div>
+      <div class="cash">$3</div>
+    </div>
+
+    <div class="imageContainer">
+      <div class="image">
+        <img src="./assets/images/image10.jpg" width="200px"><br>
+        <div><button>🛒Add to Cart</button></div>
+      </div>
+      <div class="text">Vanilla ice Cream</div>
+      <div class="cash">$7.5</div>
+    </div>
+    <div class="imageContainer">
+      <div class="image">
+        <img src="./assets/images/image6.jpg" width="200px"><br>
+        <div><button>🛒Add to Cart</button></div>
+      </div>
+      <div class="text">2 Strawberry biscuit</div>
+      <div class="cash">$4.5</div>
+    </div>
+    <div class="imageContainer">
+      <div class="image">
+        <img src="./assets/images/image12.jpg" width="200px"><br>
+        <div><button>🛒Add to Cart</button></div>
+      </div>
+      <div class="text">Bigcup Vanilla iceCream</div>
+      <div class="cash">$5.5</div>
+    </div>
+    <div class="imageContainer">
+      <div class="image">
+        <img src="./assets/images/image13.jpg" width="200px"><br>
+        <div><button>🛒Add to Cart</button></div>
+      </div>
+      <div class="text">Smallcup vanilla iceCream</div>
+      <div class="cash">$7.5</div>
+    </div>
+    <div class="imageContainer">
+      <div class="image">
+        <img src="./assets/images/image14.jpg" width="200px"><br>
+        <div><button>🛒Add to Cart</button></div>
+      </div>
+      <div class="text">Banana Cake</div>
+      <div class="cash">$2</div>
+    </div>
+    <div class="imageContainer">
+      <div class="image">
+        <img src="./assets/images/image15.jpg" width="200px"><br>
+        <div><button>🛒Add to Cart</button></div>
+      </div>
+      <div class="text">Soup</div>
+      <div class="cash">$2.5</div>
+    </div>
+    <div class="imageContainer">
+      <div class="image">
+        <img src="./assets/images/image16.jpg" width="200px"><br>
+        <div><button>🛒Add to Cart</button></div>
+      </div>
+      <div class="text">Strawberry Cake</div>
+      <div class="cash">$8.5</div>
+    </div>
+    <div class="imageContainer">
+      <div class="image">
+        <img src="./assets/images/image17.jpg" width="200px"><br>
+        <div><button>🛒Add to Cart</button></div>
+      </div>
+      <div class="text">Small Chocolate Cake</div>
+      <div class="cash">$7.5</div>
+    </div>
+    <div class="imageContainer">
+      <div class="image">
+        <img src="./assets/images/image18.jpg" width="200px"><br>
+        <div><button>🛒Add to Cart</button></div>
+      </div>
+      <div class="text">3 Small SweetSamosa</div>
+      <div class="cash">$4.5</div>
+    </div>
+
+  </div>
+  <br>
+  <hr>
+  <br>
+  <div id="cart">
+    <h1 id="mainh1">your Cart(<span id="count">0</span>)</h1>
+    <div class="item">
+
+    </div>
+    <div class="total">
+      <h3>OrderTotal $<span id="totalAmount">0</span></h3>
+      <h4>🌳This is a carbon-neutral delivery</h4>
+    </div>
+    <hr>
+    <div id="orderForm">
+      <h1>Order Details</h1>
+      <hr>
+
+      <table>
+        <tr>
+          <td><label for="Name">Name:</label></td>
+          <td><input type="text" id="Name" required></td>
+        </tr>
+        <tr>
+          <td><label for="phone">phone:</label></td>
+          <td><input type="tel" id="phone" required></td>
+        </tr>
+        <tr>
+          <td><label for="address">Address:</label></td>
+          <td><textarea cols="20" rows="5" id="address" required></textarea></td>
+        </tr>
+        <tr>
+          <td> <label for="amount">Amount:</label></td>
+          <td> <select id="amount">
+              <option value="cashOnDelivery">CashOnDelivery</option>
+              <option value="OnlinePayment">OnlinePayment</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="checkout">
+      <button onclick="order()">Confirm Order</button>
+    </div>
+    <hr>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
