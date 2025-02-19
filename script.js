@@ -2,12 +2,15 @@ const addButton = document.querySelectorAll(".image button");
 const items = document.querySelectorAll(".item")[0];
 const total = document.getElementById("count");
 const totalAmount = document.getElementById("totalAmount");
+const show = document.getElementById("show");
 let totalAmountValue = 0;
 let count = 0;
 let FoodName = [];
 
 addButton.forEach((button) => {
     button.addEventListener("click", (event) => {
+        show.style.display = "block";
+        setTimeout(() => {show.style.display = "none"} , 3000);
         count++;
         total.textContent = count;
         const itemName = document.createElement("h3");
